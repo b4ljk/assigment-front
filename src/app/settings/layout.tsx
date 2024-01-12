@@ -44,7 +44,7 @@ export default function SettingsLayout({ children }: { children: React.ReactNode
               variant={"ghost"}
               className={cn(
                 "self-stretch   rounded-lg justify-start items-center gap-4 inline-flex p-4 px-6 py-9",
-                name === item.url ? "bg-slate-700" : ""
+                name === item.url ? "dark:bg-slate-700 bg-slate-300" : ""
               )}
               key={index}
               onClick={() => {
